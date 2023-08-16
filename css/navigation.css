@@ -1,0 +1,43 @@
+.navigation{
+    float: right;
+    height: 100%;
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: #0d00ff;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: rgb(2, 255, 255);
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+body {
+    font-size: 20px;
+    color: #101010;
+    font-family: 'Lora', 'Times New Roman', serif;
+  }
+
+.container {
+    width: 100%;
+    max-width: 512px; /*максимальная ширина может иметь другое значение*/
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+footer {
+    font-size: 20px;
+    color: #0d00ff;
+    font-family: 'Lora', 'Times New Roman', serif;
+  }
